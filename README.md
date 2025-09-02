@@ -1,7 +1,26 @@
 # tldr
 "Too Long; Didn't Read" (TL;DR) tech news application. 
 
-**Create a basic Express API on Google Cloud Run**
+This project leverages the Gemini API with Google Search grounding to deliver personalized news curation.
 
-1. 🔗 Google Cloud Console. Create a new Project newsTLDR.
+The application is deployed on Cloud Run, where it serves as a backend service.
+
+🚀 Features
+
+Personalized News Curation – Generates tailored news summaries using the Gemini API.
+
+Google Search Grounding – Enhances responses with up-to-date, reliable information.
+
+Cloud-Native Deployment – Runs on Cloud Run for scalability and cost efficiency.
+
+🏗️ Architecture
+
+User request triggers the Cloud Run service.
+
+Cloud Run app queries the Gemini API with Google Search grounding.
+
+Curated news response is generated.
+
+Google Application Integration calls the Cloud Run endpoint.
+
 
