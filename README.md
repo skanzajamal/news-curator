@@ -1,5 +1,5 @@
 # tldr
-Create a basic Express API
+**Create a basic Express API**
 
 1. Let's go to the cloud console. Create a new Project newsTLDR.
 Click on the Activate Cloud Shell button on top right and authorise the cloud shell.
@@ -35,6 +35,19 @@ Your application will now be running on port 8080 and you can view it by clickin
 
 Your basic express API is now initialised and working!
 
+**Add Gemini**
+
+In this step we will be adding Gemini with Google search grouding bits of code and create a new API endpoint.
+1. Grab the Gemini API key from the AI studio. Go to Get API Key and then paste it in your .env file.
+2. We will be updating our index.js file. So let's first start by importing the GenAI package:
+<img width="443" height="25" alt="8" src="https://github.com/user-attachments/assets/267ff713-bb14-47e6-bdf8-042645a9a058" />
+3. Next, we are going to initialise the Gemini API client.
+<img width="446" height="48" alt="9" src="https://github.com/user-attachments/assets/737f110e-0666-4b10-b65d-55b538041df0" />
+4. Next, create a new endpoint /news where you pass in the prompt to get the latest tech news to your model. First you initialise a chat and then send the prompt as message to your chat and wait for the result to come back:
+<img width="607" height="437" alt="10" src="https://github.com/user-attachments/assets/401f7028-92ed-4fc2-a2c7-8ce4a2a0b6e3" />
+
+   
+   
 
 
 
