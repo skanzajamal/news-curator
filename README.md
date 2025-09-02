@@ -25,7 +25,7 @@ Brief description to build Your Own Tech News TL;DR App.
 
 ## Installation & Setup
 
-For step-by-step instructions with screenshots on how to set up and run the project, check out the [Installation Guide](INSTALL.md).
+For step-by-step instructions on how to set up and run the project, check out the [Installation Guide](INSTALL.md).
 
 
 
