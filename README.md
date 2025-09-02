@@ -21,6 +21,6 @@ Cloud Run app queries the Gemini API with Google Search grounding.
 
 Curated news response is generated.
 
-Google Application Integration calls the Cloud Run endpoint.
+
 
 
