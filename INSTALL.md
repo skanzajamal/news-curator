@@ -1,13 +1,12 @@
-## Step 1: Create a New Project in Google Cloud Console
+## Create a basic Express API
 
-Go to the [Google Cloud Console](https://console.cloud.google.com/).
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
 
 - Create a new project named **newsTLDR**.
 - Click on the **Activate Cloud Shell** button on the top right and authorize access.
 
-## Step 2: Initialize Node.js App
 
-Once Cloud Shell is active, create a new directory and initialize a Node.js application:
+2. Once Cloud Shell is active, create a new directory  called news-curator and initialize a Node.js app by running following commands::
 
 ```bash
 mkdir news-curator
@@ -15,13 +14,9 @@ cd news-curator
 npm init -y
 ```
 
-## Step 3: Open the Editor
+3. Once done, Click on the **Open Editor** button to edit in an IDE.
 
-Click on the **Open Editor** button to edit in an IDE-like environment.
-
-## Step 4: Create Basic Express API
-
-Create an `index.js` file and paste the following code:
+4. Let's set up a basic Express API endpoint by pasting in the following code in index.js:
 
 ```javascript
 import express from "express";
@@ -37,17 +32,13 @@ app.listen(PORT, () => {
 });
 ```
 
-## Step 5: Configure Environment Variables
-
-Create a `.env` file with the following variable:
+5. Create a `.env` file with the following variable:
 
 ```env
 PORT=8080
 ```
 
-## Step 6: Update `package.json`
-
-Update your `package.json` to include the following:
+6. Next, update package.json by adding following scripts and also updating the type to module to support import statements.
 
 ```json
 {
@@ -59,17 +50,13 @@ Update your `package.json` to include the following:
 }
 ```
 
-## Step 7: Install Dependencies
-
-Run the following command:
+7. Let's Open Terminal and install the packages we need:
 
 ```bash
 npm install express dotenv nodemon
 ```
 
-## Step 8: Run the Application
-
-Start your app with:
+8. Start your app with:
 
 ```bash
 npm run dev
@@ -77,7 +64,6 @@ npm run dev
 
 Your application will now run on port `8080`. Preview it in the browser by clicking the **Web Preview** button.
 
-## Final Result
 
 You should now see **Hello World** in your browser. 🎉
 
