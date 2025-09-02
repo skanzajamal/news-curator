@@ -1,5 +1,7 @@
 # tldr
-**Create a basic Express API**
+"Too Long; Didn't Read" (TL;DR) tech news application. 
 
-1. Let's go to the cloud console. Create a new Project newsTLDR.
+**Create a basic Express API on Google Cloud Run**
+
+1. 🔗 Google Cloud Console. Create a new Project newsTLDR.
 
