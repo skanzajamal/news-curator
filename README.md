@@ -27,6 +27,9 @@ Brief description to build Your Own Tech News TL;DR App.
 
 For step-by-step instructions on how to set up and run the project, check out the [Installation Guide](INSTALL.md).
 
+## Deployment
+
+For step-by-step instructions on how to to deploy application to Cloud Run, check out the [Deployment Guide](DEPLOY.md).
 
 
 
